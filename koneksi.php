@@ -6,9 +6,9 @@ $database = "meijin";
 
 $koneksi = mysqli_connect($server, $username, $password, $database);
 
-// if($koneksi) {
-//     echo "jadi";
-// } else {
-//     echo "gajadi";
+// if($koneksi){
+//     echo"sukses";
+// }else{
+//     echo"gagal";
 // }
 ?>

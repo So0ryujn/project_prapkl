@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=Jomolhari&family=Trispace:wght@100..800&family=Unbounded:wght@200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+  background-color: white;
+  font-family: "Jockey One";
+  display: flex;
+  justify-content: space-between;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.produk {
+  text-align: left;
+}
+.left{
+  flex-direction: row;
+}
+.right{
+  flex-direction: row-reverse;
+}
+.container-produk.right {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 2px black;
+  border-radius: 20px;
+  height: 700px;
+  width: 650px;
+  padding: 20px;
+  display: flex;
+}
+.produk table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.produk .product-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+.produk th{
+  text-align: left;
+  padding: 5px 10px;
+  color: white;
+  background-color: #811A1A;
+}
+.produk td{
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+.right .user-info{
+  display:flex;
+  list-style: none;
+  text-decoration: none;
+  gap:10px;
+}
